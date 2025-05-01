@@ -1,6 +1,14 @@
 # arxivllm
 
-Helps you find the papers you should read on arXiv.org.
+Helps you find papers on arXiv.org.
+
+## Requirements
+
+You need to have an OpenAI API key. Set it as an environment variable:
+
+```bash
+export OPENAI_API_KEY='your-api-key-here'
+```
 
 ## Installation
 
@@ -29,7 +37,6 @@ arxivllm "recent papers about transformer architecture in computer vision"
 2. Uses LLMs to score the search results by relevance.
 3. Presents the results in order of best fit and provides a justification for the score.
 4. Download selected papers locally.
-
 
 
 
